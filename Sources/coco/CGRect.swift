@@ -17,5 +17,5 @@
 import UIKit
 
 extension UIView {
-  var bottomCenter: CGRect { frame.bottomCenter }
+  public var bottomCenter: CGRect { frame.bottomCenter }
 }

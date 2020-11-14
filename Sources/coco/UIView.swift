@@ -17,8 +17,8 @@
 import UIKit
 
 extension CGRect {
-  var bottomCenter: CGRect { CGRect(x:      width * 0.5,
-                                    y:      height,
-                                    width:  0,
-                                    height: 0) }
+  public var bottomCenter: CGRect { CGRect(x:      width * 0.5,
+                                           y:      height,
+                                           width:  0,
+                                           height: 0) }
 }
